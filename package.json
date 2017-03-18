@@ -1,0 +1,36 @@
+{
+  "name": "node-deployit",
+  "version": "0.0.1",
+  "description": "Deploy your node application using node :)",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dist": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flynetworks/node-deployit.git"
+  },
+  "keywords": [
+    "node",
+    "deploy"
+  ],
+  "author": "Kay Schecker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flynetworks/node-deployit/issues"
+  },
+  "homepage": "https://github.com/flynetworks/node-deployit#readme",
+  "dependencies": {
+    "rsync": "^0.6.1",
+    "ssh2": "^0.5.4"
+  },
+  "devDependencies": {
+    "@types/rsync": "^0.4.28",
+    "@types/ssh2": "^0.5.35",
+    "tsc": "^1.20150623.0",
+    "tslint": "^4.5.1",
+    "typescript": "^2.2.1"
+  },
+  "types": "./src/index.ts"
+}
